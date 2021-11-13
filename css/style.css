@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+
+.header1 {
+  height: 100px;
+  background-color: #cf4b4b;
+}
+.homePage {
+  background: url(/hero-bg.jpg);
+  /* width: 100%; */
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: block;
+  /* vertical-align: middle; */
+}
+.headText {
+  color: white;
+}
+
+.headText h4 {
+  padding-top: 250px;
+  padding-left: 10px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 70px;
+  font-family: Roboto, sans-serif;
+}
+
+.headText h1 {
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: "Archivo Black";
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+}
+.headText hr {
+  border: 2px dotted white;
+  background-color: white;
+}
+.serv-img {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 10px 0;
+}
+.serv-img img {
+  height: 80px;
+}
+.serv-img div {
+  margin: 30px 100px 30px 0;
+}
+
+.serv-img h5 {
+  padding-top: 20px;
+}
+
+/* Services Design */
+.services {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.ourServ {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  color: grey;
+  margin: 130px 0 0;
+}
+.services h2 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  margin: 20px auto 0;
+  font-family: Roboto, sans-serif;
+}
+.services h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 30px auto 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 10px;
+}
+.book-now {
+  background-color: red;
+  margin: 20px;
+  padding: 16px 36px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* Help Section */
+.pics-help {
+  padding: 50px;
+  background-color: #cf4b4b;
+}
+.help {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 50px 50px 10px;
+}
+.help img {
+  width: 100%;
+  height: auto;
+}
+.help-two img {
+  margin: 20px 0;
+}
+/* .img-row {
+  padding: 25px 50px;
+} */
+.help-one p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.help-two h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  font-family: Roboto, sans-serif;
+}
+.help-two h3 {
+  font-size: 1.875rem;
+  color: #e71a23 !important;
+  font-family: Roboto, sans-serif;
+}
+
+/* Best Quality Style */
+.best-quality {
+  font-family: "Open Sans", sans-serif;
+  background-color: #beb8b8;
+  padding: 0 10px;
+}
+.best-quality img {
+  width: 92%;
+  height: auto;
+}
+.best-qlty-txt {
+  padding: 50px 100px;
+}
+.best-quality div {
+  padding: 0 10px 15px;
+}
+.best-quality h2 {
+  font-size: 3.125rem;
+  line-height: 1.6;
+  color: #104e92 !important;
+  padding: 130px 0 0;
+  font-weight: 700;
+}
+hr {
+  width: 90%;
+  padding: 4px;
+  background-color: red;
+}
+.best-quality p {
+  font-size: 1.125rem;
+  margin: 30px 0 20px;
+}
+.best-qlty-txt a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  /* margin: 20px auto 0 0; */
+  padding: 16px 36px;
+  border-radius: 5px;
+}
+
+/* Services section style */
+
+.serv {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin: 60px 31px 0 0;
+}
+.our-services {
+  padding: 50px 10px;
+  margin: 10px 0;
+}
+.serv-option {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.our-services h4 {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin: 20px 0 0;
+  color: #111111;
+}
+
+/* Plumbing services section */
+.plumb-serv {
+  background-color: #104e92;
+  color: white;
+  padding: 50px 0;
+}
+.plumb-img {
+  margin: 12px 0;
+}
+.plumb-txt {
+  margin: auto;
+  padding: 30px 0 0 60px;
+}
+.plumb-txt h2 {
+  font-family: Montserrat, sans-serif !important;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+.plumb-txt h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+.plumb-img img {
+  margin: 10px 0;
+}
+
+/* Contact Us Section */
+.contact {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  padding: 50px 30px;
+  margin: 0 150px;
+}
+.contact h2 {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  font-weight: 700;
+  padding: 20px 60px;
+}
+.contact p {
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.to-Do {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookNow {
+  padding: 15px 20px;
+  text-decoration: none;
+  margin: 15px;
+  background-color: red;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 150px;
+}
+.callUs {
+  border: 1px black solid;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #454545 !important;
+  border-radius: 5px;
+  width: 150px;
+}
+
+/* section footer */
+.footer {
+  background-color: #333333;
+  padding: 50px;
+}
+.footer h4 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 25px 250px;
+}
+.footer h5 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.footer a {
+  color: #abcff7;
+}
+@media (max-width: 360px) {
+  .to-Do {
+    flex-direction: column;
+  }
+  .contact h2 {
+    padding: 20px 0px;
+  }
+  .footer h4 {
+    padding: 25px 0px;
+    color: red;
+  }
+}
+@media (max-width: 718px) {
+  .contact {
+    margin: 0;
+  }
+  .footer h4 {
+    padding: 25px 0px;
+  }
+  .serv-img {
+    display: none;
+  }
+}
